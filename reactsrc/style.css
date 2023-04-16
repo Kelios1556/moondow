@@ -1,0 +1,25 @@
+#loginButton:hover {
+  color: #FF00FF;
+}
+
+#loginButton {
+  float: right;
+}
+
+#bar {
+  background-color: blue;
+  color: white;
+  padding: 10px 10px 50px 10px;
+}
+
+img {
+  float: left;
+}
+
+#logginPage {
+  padding-left: auto;
+  padding-right: auto;
+  test-align: center;
+}
+
+
