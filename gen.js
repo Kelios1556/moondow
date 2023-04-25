@@ -39,3 +39,5 @@ db.query(sql, ['kiiio', '123123'], function(err, re) {
 });
 
 db.end();
+
+// "start": "PORT=3001 react-scripts start",
