@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root">
+		<div class="Bar">
+			<img id="webLogoImg" src="webLogo.png" alt="moondom" width="40" height="40">
+			<!--
+				因为字体很漂亮所以我觉得干脆把每个名称和icon都画在xxxIcon.png里
+				width & height 可以按需调
+			-->
+			<img src="avatar.png" alt="头像" width="40" height="40">
+			<img src="setIcon.png" alt="设置" width="40" height="40">	
+			<img src="mesIcon.png" alt="消息" width="40" height="40">	
+			<img src="blogIcon.png" alt="博客" width="40" height="40">
+			<img src="exploIcon.png" alt="漫步" width="40" height="40">
+			<img src="frontPIcon.png" alt="首页" width="40" height="40">
+			<div id="search">
+				<input id="searchBar" type="text" placeholder="输入以搜索">
+				<button id="searchButton">search</button>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="filterButton">用户</div>
+			<div class="filterButton">tag</div>	
+			<br>
+			<div id="tagList">
+				<div class="tag" id="tag0">tag0<input type="checkbox"></div>
+				<div class="tag" id="tag1">tag1<input type="checkbox"></div>
+				<div class="tag" id="tag2">tag2<input type="checkbox"></div>
+				<div class="tag" id="tag3">tag3<input type="checkbox"></div>
+				<div class="tag" id="tag4">tag4<input type="checkbox"></div>
+				<div class="tag" id="tag5">tag5<input type="checkbox"></div>
+				<div class="tag" id="tag6">tag6<input type="checkbox"></div>
+				<div class="tag" id="tag7">tag7<input type="checkbox"></div>
+				<div class="tag" id="tag8">tag8<input type="checkbox"></div>
+				<div class="tag" id="tag9">tag9<input type="checkbox"></div>
+				<img class="tagfilter" src="tagFilterHisIcon.png" alt="历史浏览">
+				<img class="tagfilter" src="tagFilterLikeIcon.png" alt="喜欢">
+				<img class="tagfilter" src="tagFilterMarkIcon.png" alt="收藏">
+				<img class="tagfilter" src="tagFilterMoreIcon.png" alt="更多">
+			</div>
+		</div>
+		<div class="followContent">
+			<div class="post" id="post1id">
+				<img id="userAvatar" src="....jpg" alt="avatar1">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+			<div class="post" id="post2id">
+				<img id="userAvatar" src="....jpg" alt="avatar2">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+			<div class="post" id="post3id">
+				<img id="userAvatar" src="....jpg" alt="avatar3">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+			<div class="post" id="post4id">
+				<img id="userAvatar" src="....jpg" alt="avatar4">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+			<div class="post" id="post5id">
+				<img id="userAvatar" src="....jpg" alt="avatar5">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+			<div class="post" id="post6id">
+				<img id="userAvatar" src="....jpg" alt="avatar6">
+				<div id=postImg><img src="....jpg"></div>
+				<div id="postCont">some word</div>
+			</div>
+		</div>
+		<div class="userInfo">
+			<div id="card">
+				<img src="...jpg" alt="avatar">
+				<span>userName</span>
+				<div id="following">following</div>
+				<div id="followed">followed</div>
+				<div id="postInfo">
+					文章：<span id="postNum"></span><br>
+					上次更新：<span id="lastUpdate"></span>
+				</div>
+
+
+			</div>
+		</div>
+		<a id="toTop" href="#">
+			回到顶部
+		</a>
+
+	</div>
+</body>

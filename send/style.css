@@ -1,0 +1,125 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.Bar {
+  position: fixed;
+  background-color: #191970;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.Bar>img {
+  float: right;
+  margin: 10px 5px 10px 5px;
+}
+
+.Bar>#webLogoImg {
+  float: left;
+}
+
+.Bar>div#search {
+  float: right;
+}
+
+.menu {
+  position: fixed;
+  float: left;
+  width: 15%;
+  height: 100%;
+  top: 8%;
+}
+
+.menu>.filterButton {
+  font-size: large;
+  font-family: 'WenQuanYi Zen Hei', 'Hiragino Kaku Gothic Pro', '微軟正黑體', '蘋果儷中黑', Helvetica, Arial, sans-serif;
+  border: 1px solid #cccc66;
+  margin-left: 20%;
+  margin-top: 30px;
+  float: left;
+  width: 40px;
+  height: 25px;
+  text-align: center;
+}
+
+.menu>#tagList {
+  border: 1px solid #cccc66;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.menu>#tagList>.tag {
+  font-size: large;
+  font-family: 'WenQuanYi Zen Hei', 'Hiragino Kaku Gothic Pro', '微軟正黑體', '蘋果儷中黑', Helvetica, Arial, sans-serif;
+  padding: 10px 20px 10px 30px;
+  border: 1px solid #cccc66;
+}
+
+.menu>#tagList>div>input {
+  float: right;
+}
+
+.menu>#tagList>img {
+  float: left;
+  width: 20%;
+  border: 1px solid #cccc66; 
+}
+
+.followContent {
+  float: left;
+  width: 65%;
+  top: 8%;
+  background-color: #cccc66;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.followContent>.post {
+  margin: 2% 5% 3% 5%;
+  width: 25vw;
+  height: 30vh;
+  border: 1px solid black;
+  float: left;
+}
+.followContent>.post>#userAvatar {
+  float: left;
+}
+
+.followContent>.post>#postImg {
+  width: 100%;
+  height: 70%;
+  border-bottom: 1px solid black;
+}
+
+.userInfo {
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: aquamarine;
+  margin-left: 80%;
+}
+
+.userInfo>#card {
+  position: fixed;
+  top: 80px;
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  border: 1px solid #cccc66;
+}
+
+#toTop {
+  position: fixed;
+  background-color: #191970;
+  width: 50px;
+  height: 50px;
+  top: 88vh;
+  right: 2vw;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+
